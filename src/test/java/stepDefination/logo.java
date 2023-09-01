@@ -9,7 +9,7 @@ public class logo {
     WebDriver driver;
     @Given("I Launch Chrome browser")
     public void i_launch_chrome_browser() {
-        System.out.println("hello");
+        System.out.println("hello change");
       // WebDriverManager.chromedriver().setup();
        // System.setProperty("WebDriver.chrome.driver", "C:\\Program Files\\Software Testing\\geckodriver-v0.33.0-win64\\chromedriver.exe");
         //WebDriver driver = new ChromeDriver();
@@ -18,17 +18,19 @@ public class logo {
 
     @When("I open the Orange HRM homepage")
     public void i_open_the_orange_hrm_homepage() {
-        System.out.println("hello2");
+        System.out.println("hello2 change");
 
     }
 
     @Then("I verify logo should present")
     public void i_verify_logo_should_present() {
+        System.out.println("hello2 change");
         System.out.println("hello3");
     }
 
     @Then("I close the browser")
     public void i_close_the_browser() {
+        System.out.println("hello2 change");
         System.out.println("hello4");
     }
 }
